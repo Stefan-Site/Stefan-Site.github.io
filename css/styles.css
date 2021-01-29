@@ -10232,3 +10232,7 @@ section.resume-section .resume-section-content {
 .carousel-item img {
     width: 35%
 }
+
+#sticky-footer {
+  flex-shrink: none;
+}
