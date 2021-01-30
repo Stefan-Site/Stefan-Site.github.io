@@ -16,10 +16,16 @@
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/lightbox.min.css">
+        <link href="https://cdn.jsdelivr.net/lightgallery/1.3.9/css/lightgallery.min.css" rel="stylesheet">
         
         <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
         <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
         <script src="js/lightbox.min.js"></script> 
+            <link rel="stylesheet" href="css/blueimp-gallery.css" />
+    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css" />
+    <link rel="stylesheet" href="css/blueimp-gallery-video.css" />
+    <link rel="stylesheet" href="css/demo/demo.css" />
+        
         
     </head>
         <body oncontextmenu='return false' class='snippet-body'>
@@ -44,37 +50,47 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Contact</a></li>
                 </ul>
             </div>
-          
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-none d-lg-block"><img class="img-fluid mx-auto mb-2" src="assets/img/logo.png" alt="" /></span>
-            </a>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/logo.png" alt="" /></span>
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
+            
             <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <img height="150" src="assets/img/logo.jpg">
-                    <h1 class="mb-0">
-                        <br>
-                        <!--
-                        <span class="text-primary">Photography</span>
-                        -->                     
-                    </h1>
-                    <div class="subheading mb-5">
-                        Photografin & Model
-                        <a href="mailto:sarah.cuja@web.de">sarah.cuja@web.de</a>
-                    
-                    </div>
-                    <p class="lead mb-5">Folgt mir auf</p> <br>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.tiktok.com/@sarahcujaofficial?"><i class="fab fa-tiktok"></i></a>
-                        <a class="social-icon" href="https://www.instagram.com/sarah.cuja/"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/sarahcujaphotography/"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
+            <section class="resume-section2" id="about">
+<!--                <div class="resume-section-content">-->
+
+<!-- Background video -->
+<div class="video-background-holder">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="assets/vid/sample-mp4-file.mp4" type="video/mp4">
+    </video>
+  <div class="video-background-content container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-4">Bootstrap video background</h1>
+        <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+        <p class="lead">Snippet by <a href="https://bootstrapious.com/snippets" class="text-white">
+                    <u>Bootstrapious</u></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+                <br>
+<!-- End -->
+
             </section>
-            <hr class="m-0" />
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
@@ -132,6 +148,8 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">About</h2>
+                    
+                    
                     <div class="subheading mb-3">Me</div>
                     <ul class="list-inline dev-icons">
                         <li class="list-inline-item"><i class="fab fa-html5"></i></li>
@@ -183,9 +201,124 @@
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Contact</h2>
+                                        <img height="150" src="assets/img/logo.jpg">
+                    <h1 class="mb-0">
+                        <br>
+                        <!--
+                        <span class="text-primary">Photography</span>
+                        -->                     
+                    </h1>
+                    <div class="subheading mb-5">
+                        Photografin & Model
+                        <a href="mailto:sarah.cuja@web.de">sarah.cuja@web.de</a>
+                    
+                    </div>
+                    <p class="lead mb-5">Folgt mir auf</p> <br>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.tiktok.com/@sarahcujaofficial?"><i class="fab fa-tiktok"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/sarah.cuja/"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/sarahcujaphotography/"><i class="fab fa-facebook-f"></i></a>
+                    </div>
                 </div>
             </section>
         </div>
+            
+
+ <div class="container">
+        <div class="full-view"></div>
+        <div class="preview-list">
+            <ul>
+                <li>
+                    <input type="radio" id="tab-1" name="gallery-group">
+                    <label for="tab-1">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/1559117/pexels-photo-1559117.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-2" name="gallery-group">
+                    <label for="tab-2">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-3" name="gallery-group">
+                    <label for="tab-3">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img
+                            src="https://images.pexels.com/photos/730256/pexels-photo-730256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-4" name="gallery-group" checked>
+                    <label for="tab-4">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                        <img src="https://images.pexels.com/photos/22427/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-5" name="gallery-group">
+                    <label for="tab-5">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/789380/pexels-photo-789380.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-6" name="gallery-group">
+                    <label for="tab-6">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/355411/pexels-photo-355411.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" id="tab-7" name="gallery-group">
+                    <label for="tab-7">
+                        <div class="tab">
+                            <img
+                                src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                    </label>
+                    <div class="content">
+                            <img src="https://images.pexels.com/photos/1424246/pexels-photo-1424246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+            
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
